@@ -1,5 +1,5 @@
-#include "STreeComp.h"
-#include "STree.h"
+#include "stree_comp.h"
+#include "stree.h"
 
 int calculateDepthTreeC(treeC ST) {
     if (ST == NULL) {
