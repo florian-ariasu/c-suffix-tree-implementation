@@ -12,7 +12,7 @@ typedef struct nodeComp {
 } nodeC, *treeC;
 
 treeC initTreeC();
-treeC astToCst(tree ST, treeC STC);
+treeC stToCst(tree ST, treeC STC);
 int calculateDepthTreeC(treeC ST);
 int isSingleChild(tree ST);
 void printLevelC(FILE *fOutput, treeC root, int level);

@@ -95,7 +95,7 @@ int main(int argc, char *argv[]) {
         createTree(ST, n, str);
 
         treeC STC = initTreeC();
-        STC = astToCst(ST, STC);
+        STC = stToCst(ST, STC);
         printTreeC(fOutput, STC);
     }
 

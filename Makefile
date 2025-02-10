@@ -1,12 +1,11 @@
-SOURCE_FILES := STree.c STreeComp.c
-HEADERS := STree.h STreeComp.h
+SOURCE_FILES := stree.c stree_comp.c
+HEADERS := stree.h stree_comp.h
 
 build: main.c $(SOURCE_FILES) $(HEADERS)
-		gcc -o tema2 main.c $(SOURCE_FILES) $(HEADERS)
+		gcc -o stree main.c $(SOURCE_FILES) $(HEADERS)
 run: build
-	./tema2
+	./stree
 clean:
-	rm -rf tema2 rezultat_valgrind.txt
+	rm -rf stree rezultat_valgrind.txt
 check:
 	./checker.sh
-	

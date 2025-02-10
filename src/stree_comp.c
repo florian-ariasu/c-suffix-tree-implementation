@@ -43,7 +43,7 @@ treeC initTreeC() {
     return newNode;
 }
 
-treeC astToCst(tree ST, treeC STC) {
+treeC stToCst(tree ST, treeC STC) {
     if (ST == NULL) {
         return NULL;
     }
@@ -86,7 +86,7 @@ treeC astToCst(tree ST, treeC STC) {
 
     for (int i = 0; i < 27; i++) {
         if (ST->children[i] != NULL) {
-            STC->children[i] = astToCst(ST->children[i], STC->children[i]);
+            STC->children[i] = stToCst(ST->children[i], STC->children[i]);
         }
     }
 
