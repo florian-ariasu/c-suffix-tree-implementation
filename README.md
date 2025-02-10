@@ -43,7 +43,7 @@ typedef struct nodeComp {
 ### Compression Operations
 | Operation | Description |
 |-----------|-------------|
-| `astToCst()` | Converts to compressed format |
+| `stToCst()` | Converts to compressed format |
 | `initTreeC()` | Initializes compressed tree |
 | `isSingleChild()` | Checks for path compression opportunity |
 
