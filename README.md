@@ -77,7 +77,7 @@ Output:
 
 ## ⚙️ Usage
 ```bash
-./tema2 [-c1 | -c2 <K> | -c3 | -c4] [input_file] [output_file]
+./stree [-c1 | -c2 <K> | -c3 | -c4] [input_file] [output_file]
 ```
 
 ## 🔍 Implementation Details
