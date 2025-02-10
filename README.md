@@ -118,6 +118,3 @@ make clean  # Removes artifacts
 2. Input strings use lowercase English alphabet
 3. Pattern matching returns binary results
 4. Compressed tree maintains original functionality
-
----
-*This project is part of the Data Structures and Algorithms curriculum at UNSTPB ACS Faculty, Computer Science Department.*
