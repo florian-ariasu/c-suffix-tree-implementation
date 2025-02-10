@@ -1,11 +1,6 @@
 # 🌲 Suffix Tree Implementation
 > A sophisticated implementation of suffix trees with both standard and compressed variants, designed for efficient pattern matching and text analysis.
 
-[![Academic Project](https://img.shields.io/badge/Academic-Project-blue.svg)](https://github.com)
-[![Institution](https://img.shields.io/badge/UNSTPB-ACS-orange.svg)](https://github.com)
-[![Language](https://img.shields.io/badge/Language-C-red.svg)](https://github.com)
-[![Year](https://img.shields.io/badge/Year-2-green.svg)](https://github.com)
-
 ## 🎯 Project Overview
 This implementation provides a comprehensive suffix tree solution featuring both standard and compressed variants. The project includes pattern matching capabilities, statistical analysis, and efficient tree traversal algorithms.
 
