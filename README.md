@@ -1,12 +1,12 @@
-# 🌲 Suffix Tree Implementation
+## 🌲 Suffix Tree Implementation
 > A sophisticated implementation of suffix trees with both standard and compressed variants, designed for efficient pattern matching and text analysis.
 
-## 🎯 Project Overview
+### 🎯 Project Overview
 This implementation provides a comprehensive suffix tree solution featuring both standard and compressed variants. The project includes pattern matching capabilities, statistical analysis, and efficient tree traversal algorithms.
 
-## 🏗️ Core Data Structures
+### 🏗️ Core Data Structures
 
-### Standard Suffix Tree Node
+#### Standard Suffix Tree Node
 ```c
 typedef struct node {
     char c;                    // Character stored in node
@@ -14,7 +14,7 @@ typedef struct node {
 } node, *tree;
 ```
 
-### Compressed Suffix Tree Node
+#### Compressed Suffix Tree Node
 ```c
 typedef struct nodeComp {
     char *label;              // Edge label string
@@ -22,9 +22,9 @@ typedef struct nodeComp {
 } nodeC, *treeC;
 ```
 
-## 🛠️ Implemented Operations
+### 🛠️ Implemented Operations
 
-### Tree Construction Operations
+#### Tree Construction Operations
 | Operation | Description |
 |-----------|-------------|
 | `initTree()` | Initializes empty tree with root node |
@@ -32,7 +32,7 @@ typedef struct nodeComp {
 | `insertWord()` | Inserts single suffix into tree |
 | `decomposeWord()` | Generates all suffixes of input string |
 
-### Analysis Operations
+#### Analysis Operations
 | Operation | Description |
 |-----------|-------------|
 | `calculateNumOfLeaves()` | Counts terminal nodes |
@@ -40,21 +40,21 @@ typedef struct nodeComp {
 | `maxNumOfDescendants()` | Finds maximum branching factor |
 | `findSuffixes()` | Pattern matching in tree |
 
-### Compression Operations
+#### Compression Operations
 | Operation | Description |
 |-----------|-------------|
 | `stToCst()` | Converts to compressed format |
 | `initTreeC()` | Initializes compressed tree |
 | `isSingleChild()` | Checks for path compression opportunity |
 
-## 📊 Task Implementations
+### 📊 Task Implementations
 
-### Task 1: Basic Construction
+#### Task 1: Basic Construction
 - BFS traversal output
 - Complete suffix tree building
 - Dynamic memory management
 
-### Task 2: Statistical Analysis
+#### Task 2: Statistical Analysis
 ```console
 Output format:
 <leaf_count>
@@ -62,7 +62,7 @@ Output format:
 <max_descendants>
 ```
 
-### Task 3: Pattern Matching
+#### Task 3: Pattern Matching
 ```console
 Input: "banana", ["na", "ana"]
 Output: 
@@ -70,25 +70,25 @@ Output:
 1
 ```
 
-### Task 4: Compressed Tree
+#### Task 4: Compressed Tree
 - Path compression
 - Space optimization
 - Equivalent functionality
 
-## ⚙️ Usage
+### ⚙️ Usage
 ```bash
 ./stree [-c1 | -c2 <K> | -c3 | -c4] [input_file] [output_file]
 ```
 
-## 🔍 Implementation Details
+### 🔍 Implementation Details
 
-### Memory Management
+#### Memory Management
 - Dynamic allocation for all nodes
 - Proper initialization of pointers
 - Fixed-size arrays (27) for alphabet
 - Cleanup routines for all allocations
 
-### Complexity Analysis
+#### Complexity Analysis
 ```
 Construction: O(n²)
 Pattern Match: O(m)
@@ -96,19 +96,19 @@ Space (Standard): O(n²)
 Space (Compressed): O(n)
 ```
 
-### Error Handling
+#### Error Handling
 - Null pointer validation
 - Input file verification
 - Memory allocation checks
 - Index bounds verification
 
-## 🚀 Build Instructions
+### 🚀 Build Instructions
 ```bash
 make build  # Compiles the project
 make clean  # Removes artifacts
 ```
 
-## ⚠️ Important Notes
+### ⚠️ Important Notes
 1. All suffixes are terminated with '$'
 2. Input strings use lowercase English alphabet
 3. Pattern matching returns binary results
