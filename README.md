@@ -27,7 +27,7 @@ typedef struct nodeComp {
 #### Tree Construction Operations
 | Operation | Description |
 |-----------|-------------|
-| `initTree()` | Initializes empty tree with root node |
+| `initTree()` | Initialises empty tree with root node |
 | `createTree()` | Builds complete suffix tree from input |
 | `insertWord()` | Inserts single suffix into tree |
 | `decomposeWord()` | Generates all suffixes of input string |
@@ -44,7 +44,7 @@ typedef struct nodeComp {
 | Operation | Description |
 |-----------|-------------|
 | `stToCst()` | Converts to compressed format |
-| `initTreeC()` | Initializes compressed tree |
+| `initTreeC()` | Initialises compressed tree |
 | `isSingleChild()` | Checks for path compression opportunity |
 
 ### 📊 Task Implementations
@@ -84,7 +84,7 @@ Output:
 
 #### Memory Management
 - Dynamic allocation for all nodes
-- Proper initialization of pointers
+- Proper initialisation of pointers
 - Fixed-size arrays (27) for alphabet
 - Cleanup routines for all allocations
 
