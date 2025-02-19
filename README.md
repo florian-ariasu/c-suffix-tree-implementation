@@ -36,7 +36,7 @@ typedef struct nodeComp {
 | Operation | Description |
 |-----------|-------------|
 | `calculateNumOfLeaves()` | Counts terminal nodes |
-| `countNodesOnLevel()` | Analyzes nodes at specific depth |
+| `countNodesOnLevel()` | Analyses nodes at specific depth |
 | `maxNumOfDescendants()` | Finds maximum branching factor |
 | `findSuffixes()` | Pattern matching in tree |
 
