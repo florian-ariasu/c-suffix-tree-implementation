@@ -113,3 +113,6 @@ make clean  # Removes artifacts
 2. Input strings use lowercase English alphabet
 3. Pattern matching returns binary results
 4. Compressed tree maintains original functionality
+
+### 📜 Licence
+This project is licensed under the MIT Licence. See the [LICENCE](./LICENSE) file for further details.
