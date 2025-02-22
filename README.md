@@ -1,4 +1,4 @@
-## 🌲 Suffix Tree Implementation
+## Suffix Tree Implementation
 > A sophisticated implementation of suffix trees with both standard and compressed variants, designed for efficient pattern matching and text analysis.
 
 ### 🎯 Project Overview
