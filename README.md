@@ -1,10 +1,10 @@
 ## Suffix Tree Implementation
 > A sophisticated implementation of suffix trees with both standard and compressed variants, designed for efficient pattern matching and text analysis.
 
-### 🎯 Project Overview
+### Project Overview
 This implementation provides a comprehensive suffix tree solution featuring both standard and compressed variants. The project includes pattern matching capabilities, statistical analysis, and efficient tree traversal algorithms.
 
-### 🏗️ Core Data Structures
+### Core Data Structures
 
 #### Standard Suffix Tree Node
 ```c
@@ -22,7 +22,7 @@ typedef struct nodeComp {
 } nodeC, *treeC;
 ```
 
-### 🛠️ Implemented Operations
+### Implemented Operations
 
 #### Tree Construction Operations
 | Operation | Description |
@@ -47,7 +47,7 @@ typedef struct nodeComp {
 | `initTreeC()` | Initialises compressed tree |
 | `isSingleChild()` | Checks for path compression opportunity |
 
-### 📊 Task Implementations
+### Task Implementations
 
 #### Task 1: Basic Construction
 - BFS traversal output
@@ -75,12 +75,12 @@ Output:
 - Space optimization
 - Equivalent functionality
 
-### ⚙️ Usage
+### Usage
 ```bash
 ./stree [-c1 | -c2 <K> | -c3 | -c4] [input_file] [output_file]
 ```
 
-### 🔍 Implementation Details
+### Implementation Details
 
 #### Memory Management
 - Dynamic allocation for all nodes
@@ -102,17 +102,17 @@ Space (Compressed): O(n)
 - Memory allocation checks
 - Index bounds verification
 
-### 🚀 Build Instructions
+### Build Instructions
 ```bash
 make build  # Compiles the project
 make clean  # Removes artifacts
 ```
 
-### ⚠️ Important Notes
+### Important Notes
 1. All suffixes are terminated with '$'
 2. Input strings use lowercase English alphabet
 3. Pattern matching returns binary results
 4. Compressed tree maintains original functionality
 
-### 📜 Licence
+### Licence
 This project is licensed under the MIT Licence. See the [LICENCE](./LICENSE) file for further details.
